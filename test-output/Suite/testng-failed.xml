@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="urlf" value="https://facebook.com"/>
+    <parameter name="firstname" value="Selenium"/>
+    <parameter name="password" value="Selenium@123"/>
+    <parameter name="urlr" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+    <parameter name="passwordf" value="Selenium@123"/>
+    <parameter name="urlO" value="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"/>
+    <parameter name="passwordO" value="admin123"/>
+    <parameter name="Browser1" value="chrome"/>
+    <parameter name="email" value="seleniumpanda@gmail.com"/>
+    <parameter name="usernameO" value="Admin"/>
+    <parameter name="lastname" value="Panda"/>
+    <parameter name="username" value="seleniumpanda@rediffmail.com"/>
+    <classes>
+      <class name="testng_parameterization.OrangeHRM">
+        <methods>
+          <include name="orangeHRMLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng_parameterization.OrangeHRM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
