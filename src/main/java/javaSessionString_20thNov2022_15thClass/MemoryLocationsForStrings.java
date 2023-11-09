@@ -3,7 +3,7 @@ package javaSessionString_20thNov2022_15thClass;
 public class MemoryLocationsForStrings {
 	//Strings are basically stored in Heap Memory
 	//There are five types of memory Storage areas in java
-	// 1. Heap Area[String Constant Pool / String Literal Pool (Manipulate size)]
+	// 1. Heap Area[String Constant Pool / String Literal Pool SLP/SCP (Manipulate size)]
     // 2. Method Area
 	// 3. Stack Area
 	// 4. Native MethodArea
@@ -41,7 +41,7 @@ public class MemoryLocationsForStrings {
 		String S10 = new String("Labrador");
 // Que: Which one of these 2 examples is better to use when creating Objects for 
 // designing Framework and Why? Ans: S9 has one Object created. If there is less Objects
-//created in the memory the occupation is less. Therefore, the compiler takes less time
+//created in the memory, the occupation is less. Therefore, the compiler takes less time
 // to execute, it gets lighter and faster.
 	}
 
