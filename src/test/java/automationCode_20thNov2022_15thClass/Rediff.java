@@ -39,7 +39,7 @@ public class Rediff {
 	    OneHundredLink.click();
 	    
 	   //Write a for loop to print the names of the 251 number of links in this page.
-	    //click on the links that are active.
+	    //click on the links that are active.  FINISH THIS ASSIGNMENT.
 	  //  Thread.sleep(2000);
 	   // driver.navigate().back();
 	    for(int i=0; i<RediffLinks.size(); i++) {
